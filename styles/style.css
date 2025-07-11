@@ -18,6 +18,8 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+
 /* header */
 /* navbar and banner backround image  */
 .header{
@@ -27,6 +29,11 @@
     background-size: cover;
     width: 1900px;
     height: 650px;
+}
+
+/* main  */
+main{
+    background-color: #f0f4ff;
 }
 
 /* Navbar section  */
@@ -81,3 +88,42 @@
 
 
 /* action section  */
+.action-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 180px;
+    
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+
+}
+.action-description{
+    font-size: 24px;
+    color: #2524328c;
+    font-weight: normal
+    
+}
+
+.action-btn{
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    padding: 14px 36px;
+    color: #FFFFFF;
+    font-weight: bold;
+    
+}
+.action-img{
+    background-repeat: no-repeat;
+    border-radius: 48px;
+    width: 403px;
+    height: 328px;
+    margin-top: -40px;
+    margin-left: 80px;
+    
+}
+
+/* Productive User Section  */

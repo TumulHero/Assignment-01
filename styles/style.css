@@ -1,0 +1,47 @@
+ /* Inter font  */
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Raleway Font  */
+
+.open-sans-raleway> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Navbar section  */
+
+
+.navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px;
+
+}
+.navbar-logo{
+    color: #4E47FF;
+    font-size: 34px;
+    font-weight: 800;
+    
+
+}
+
+.navbar-btn{
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 12px;
+    padding: 18px 36px;
+    color: #FFFFFF;
+    margin-right: 110px;
+}

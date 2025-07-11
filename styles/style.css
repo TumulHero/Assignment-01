@@ -13,10 +13,20 @@
 .open-sans-raleway> {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: bold;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+/* header */
+/* navbar and banner backround image  */
+.header{
+    background-image: url('/Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1900px;
+    height: 650px;
 }
 
 /* Navbar section  */
@@ -45,3 +55,29 @@
     color: #FFFFFF;
     margin-right: 110px;
 }
+
+/* banner-section  */
+.banner-section{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.banner-btn{
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 36px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.banner-title{
+    
+    color: #252432;
+    font-weight: bold;
+    font-size: 65px;
+    margin: 0px;
+}
+
+
+/* action section  */

@@ -10,7 +10,7 @@
 
 /* Raleway Font  */
 
-.open-sans-raleway> {
+.open-sans-raleway {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
@@ -23,7 +23,7 @@
 /* header */
 /* navbar and banner backround image  */
 .header{
-    background-image: url('./Assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

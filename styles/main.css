@@ -23,7 +23,7 @@
 /* header */
 /* navbar and banner backround image  */
 .header{
-    background-image: url('/Assets/Hero-bg.png');
+    background-image: url('./Assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
